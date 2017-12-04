@@ -11,7 +11,7 @@ import static java.lang.Math.*;
 import static java.util.Arrays.sort;
 import static java.util.Collections.sort;
 
-public class D897 {
+public class Main {
 	InputStream is;
 	PrintWriter out;
 	String INPUT = "";
@@ -37,7 +37,7 @@ public class D897 {
 		new Thread(null, new Runnable() {
 			public void run() {
 				try {
-					new D897().run();
+					new Main().run();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
